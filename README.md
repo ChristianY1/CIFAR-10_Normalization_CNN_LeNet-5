@@ -5,6 +5,14 @@ Cuando empezamos a realizar un proyecto de Machine Learning o de Inteligencia ar
 de normalizacion para nuestro dataset. 
 Como objetivo principal es que, a mas de revisar si afecta en mayor o menor medida el accuracy, es revisar los tiemposhen los que se tarda las redes neuronales convolucionales con diferentes arquitecturas, con la normalizacion dada, para la cual usaremos todo el conjunto de datos que en nuestro caso usaremos el dataset Cifar-10.
 
+### Los cuadernos proporcionan los siguientes flujos de trabajo:
+- CNN_MEAN: Carga del dataset, aplicación normalizacion MEAN al conjunto de datos, creación de una CNN y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
+- CNN_MIN_MAX: Carga, aplicación normalizacion min_max al conjunto de datos, creación de una CNN y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
+- CNN_NORMALIZACION_ESTANDAR: Carga, aplicación normalizacion estandar al conjunto de datos , creación de una CNN y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
+- LeNet_5_MIN_MAX: Carga, aplicación normalizacion min_max al conjunto de datos, creación de una CNN con una arquitectura clasica LeNet5 y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
+- LeNet_5_MEAN:Carga del dataset, aplicación normalizacion MEAN al conjunto de datos, creación de una CNN con una arquitectura clasica LeNet5 y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
+- LeNet_5_NORMALIZACION_ESTANDAR: Carga del dataset, aplicación de normalizacion estandar al conjunto de datos, creación de una CNN con una arquitectura clasica LeNet5 y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
+
 ### Requerimientos
  - Python 3.6
  - Dataset CIFAR-10 Dataset. https://www.cs.toronto.edu/~kriz/cifar.html. Ultima descarga 20/07/2020.
