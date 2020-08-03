@@ -16,5 +16,7 @@ de normalizacion para nuestro dataset.Como objetivo principal es que, a mas de r
 - tarfile (v3.8.5)
 ### Referencias  
 [1] Learning Multiple Layers of Features from Tiny Images, Alex Krizhevsky, 2009.
+
 [2] A. (2018). amir-saniyan/AlexNet. GitHub. https://github.com/amir-saniyan/AlexNet
+
 [3] Rizwan, M. R. (2018, 14 septiembre). LeNet-5 – A Classic CNN Architecture. engMRK. https://engmrk.com/lenet-5-a-classic-cnn-architecture/
