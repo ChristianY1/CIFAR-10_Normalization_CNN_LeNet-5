@@ -7,6 +7,8 @@ Como objetivo principal es que, a mas de revisar si afecta en mayor o menor medi
 
 ### Los cuadernos proporcionan los siguientes flujos de trabajo:
 - AlexNet(CNN): Carga del dataset, aplicación normalizacion MEAN al conjunto de datos, creación de una CNN (AlexNet) y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
+- AlexNet_MIN_MAX: Carga, aplicación normalizacion min_max al conjunto de datos, creación de una CNN (AlexNet) y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
+- AlexNet_NORMALIZACION_ESTANDAR: Carga, aplicación normalizacion estandar al conjunto de datos , creación de una CNN (AlexNet) y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
 - CNN_MEAN: Carga del dataset, aplicación normalizacion MEAN al conjunto de datos, creación de una CNN y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
 - CNN_MIN_MAX: Carga, aplicación normalizacion min_max al conjunto de datos, creación de una CNN y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
 - CNN_NORMALIZACION_ESTANDAR: Carga, aplicación normalizacion estandar al conjunto de datos , creación de una CNN y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
