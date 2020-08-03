@@ -6,6 +6,7 @@ de normalizacion para nuestro dataset.
 Como objetivo principal es que, a mas de revisar si afecta en mayor o menor medida el accuracy, es revisar los tiemposhen los que se tarda las redes neuronales convolucionales con diferentes arquitecturas, con la normalizacion dada, para la cual usaremos todo el conjunto de datos que en nuestro caso usaremos el dataset Cifar-10.
 
 ### Los cuadernos proporcionan los siguientes flujos de trabajo:
+- AlexNet(CNN): Carga del dataset, aplicación normalizacion MEAN al conjunto de datos, creación de una CNN (AlexNet) y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
 - CNN_MEAN: Carga del dataset, aplicación normalizacion MEAN al conjunto de datos, creación de una CNN y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
 - CNN_MIN_MAX: Carga, aplicación normalizacion min_max al conjunto de datos, creación de una CNN y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
 - CNN_NORMALIZACION_ESTANDAR: Carga, aplicación normalizacion estandar al conjunto de datos , creación de una CNN y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
