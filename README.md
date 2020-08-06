@@ -3,8 +3,6 @@
 
 El aprendizaje automático es sensible a la etapa de preparación de los datos, especialmente cuando se trabaja con conjuntos de datos de imágenes, dentro de los cuales se pueden aplicar muchos métodos, incluida la normalización. En este trabajo proponemos una arquitectura de red neural convolucional que incorpora un procesamiento utilizando las técnicas de normalización más conocidas por el estado del arte, en esta investigación demostraremos cuáles son las que nos dan mejores resultados y se integra mejor a nuestra arquitectura de red neural convolucional para el conjunto de datos de Cifar-10 y lo compararemos con varios modelos. Para esta investigación utilizamos la medida de calidad de la precisión para demostrar mejores resultados en la clasificación de imágenes, reduciendo al mismo tiempo el tiempo de ejecución. Esta investigación abre las puertas a futuras investigaciones sobre la incorporación de nuevas técnicas de procesamiento de las redes neuronales convolucionales (CNN) en nuevas estructuras para la mejora de los resultados de las CNN.   
 
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
-
 ### Los cuadernos proporcionan los siguientes flujos de trabajo:
 - AlexNet(CNN): Carga del dataset, aplicación normalizacion MEAN al conjunto de datos, creación de una CNN (AlexNet) y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
 - AlexNet_MIN_MAX: Carga, aplicación normalizacion min_max al conjunto de datos, creación de una CNN (AlexNet) y entrenamiento del modelo, ademas de la muestra de los resultados obtenidos (acc, tiempo).
